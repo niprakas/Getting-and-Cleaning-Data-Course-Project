@@ -23,7 +23,10 @@
 rm(list=ls())
 
 # Load library “reshape2” 
+install.packages("reshape2")
+install.packages("data.table")
 library(reshape2)
+library(data.table)
 
 # Download and unzip the file.
 zipUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
