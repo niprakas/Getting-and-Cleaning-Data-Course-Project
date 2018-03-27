@@ -22,7 +22,7 @@
 # Clean up workspace
 rm(list=ls())
 
-# Load library “reshape2” 
+# Load library “reshape2” and "data.table" 
 install.packages("reshape2")
 install.packages("data.table")
 library(reshape2)
