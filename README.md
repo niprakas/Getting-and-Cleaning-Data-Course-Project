@@ -30,7 +30,7 @@ This repository contains the following files:
   
   > Loads the activity and subject data for each dataset, and merges them into finalData.
   
-  > Creates a new independent tidy data set with the average of each variable for each activity and each subject
+  > Creates a new independent tidy data set(tidyData.txt) with the average of each variable for each activity and each subject
 
 
-The tidyData.txt is present in repositry and This script requires the reshape2 package.
+The tidyData.txt is present in repository and This script requires the reshape2 package.
